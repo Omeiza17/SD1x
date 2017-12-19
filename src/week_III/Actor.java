@@ -42,7 +42,7 @@ public class Actor implements Comparable<Actor> {
 
     @Override
     public String toString() {
-        return String.format("%s has an average rating of %s", getName(), getActorRating());
+        return String.format("%s has an average rating of %.2f", getName(), getActorRating());
     }
 
     @Override

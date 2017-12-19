@@ -47,7 +47,7 @@ public class Movie implements Comparable<Movie> {
 
     @Override
     public String toString() {
-        return String.format("%s has a rating of %s", this.getName(), this.getRating());
+        return String.format("%s has a rating of %.2f", this.getName(), this.getRating());
     }
 
     @Override
