@@ -100,7 +100,13 @@ public class MovieDatabase {
                 }
             }
             for (String key : map.keySet()) {
-                favorites.addMovie(key, (String[]) map.get(key).toArray());
+                String[] actors = new String[map.get(key).size()];
+                int index = 0;
+                for (Object entry: map.get(key)) {
+                    actors[index] = (String) entry;
+                    index++;
+                }
+                favorites.addMovie(key, actors);
             }
             while (scanner.hasNext()) {
                 String[] rate = scanner.nextLine().split("\t");
