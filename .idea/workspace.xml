@@ -2,32 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab2599c0-b21d-4327-9bb4-2731c9f1f6e0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SD1x/Battleship/BattleCruiser.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SD1x/Battleship/BattleShip.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SD1x/Battleship/BattleshipGame.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SD1x/Battleship/Cruiser.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SD1x/Battleship/Destroyer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SD1x/Battleship/EmptySea.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SD1x/Battleship/LightCruiser.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SD1x/Battleship/Ocean.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SD1x/Battleship/OceanTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SD1x/Battleship/Ship.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SD1x/Battleship/ShipTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SD1x/Battleship/Submarine.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Battleship/BattleCruiser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Battleship/BattleShip.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Battleship/BattleshipGame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Battleship/Cruiser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Battleship/Destroyer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Battleship/EmptySea.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Battleship/LightCruiser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Battleship/Ocean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Battleship/OceanTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Battleship/Ship.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Battleship/ShipTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Battleship/Submarine.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/week_III/MovieDatabase.java" afterPath="$PROJECT_DIR$/src/week_III/MovieDatabase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/week_II/Squarelotron.java" afterPath="$PROJECT_DIR$/src/week_II/Squarelotron.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/week_II/SquarelotronTest.java" afterPath="$PROJECT_DIR$/src/week_II/SquarelotronTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,23 +15,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MovieDatabase.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/week_III/MovieDatabase.java">
+    <leaf>
+      <file leaf-file-name="Squarelotron.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/week_II/Squarelotron.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="77" column="43" lean-forward="false" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#MovieDatabase#0;class#MovieDatabase#0" expanded="false" />
-                <element signature="method#addMovie#0;class#MovieDatabase#0" expanded="false" />
-                <element signature="method#addRating#0;class#MovieDatabase#0" expanded="false" />
-                <element signature="method#updateRating#0;class#MovieDatabase#0" expanded="false" />
-                <element signature="method#getBestActor#0;class#MovieDatabase#0" expanded="false" />
-                <element signature="method#getBestMovie#0;class#MovieDatabase#0" expanded="false" />
-                <element signature="method#printDatabase#0;class#MovieDatabase#0" expanded="false" />
-                <element signature="method#main#0;class#MovieDatabase#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="570">
+              <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SquarelotronTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/week_II/SquarelotronTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -87,8 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/week_II/SquarelotronTest.java" />
-        <option value="$PROJECT_DIR$/src/week_II/Squarelotron.java" />
         <option value="$PROJECT_DIR$/src/week_III/Movie.java" />
         <option value="$PROJECT_DIR$/src/week_III/Actor.java" />
         <option value="$PROJECT_DIR$/src/week_III/ratings.txt" />
@@ -104,6 +79,8 @@
         <option value="$PROJECT_DIR$/src/Battleship/Ocean.java" />
         <option value="$PROJECT_DIR$/src/Battleship/OceanTest.java" />
         <option value="$PROJECT_DIR$/src/week_III/MovieDatabase.java" />
+        <option value="$PROJECT_DIR$/src/week_II/SquarelotronTest.java" />
+        <option value="$PROJECT_DIR$/src/week_II/Squarelotron.java" />
       </list>
     </option>
   </component>
@@ -134,6 +111,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,16 +128,15 @@
               <item name="SD1x" type="b2602c69:ProjectViewProjectNode" />
               <item name="SD1x" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="week_III" type="462c0819:PsiDirectoryNode" />
+              <item name="week_II" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -167,7 +144,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="settings.editor.selected.configurable" value="sshConsole" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -194,63 +171,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MovieDatabase">
-    <configuration name="MovieDatabase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SquarelotronTest">
+    <configuration name="SquarelotronTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="week_III.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="week_III.MovieDatabase" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="SD1x" />
-      <envs />
-    </configuration>
-    <configuration name="OceanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Battleship.*" />
+          <option name="PATTERN" value="week_II.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="SD1x" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Battleship" />
-      <option name="MAIN_CLASS_NAME" value="Battleship.OceanTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="ShipTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Battleship.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SD1x" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Battleship" />
-      <option name="MAIN_CLASS_NAME" value="Battleship.ShipTest" />
+      <option name="PACKAGE_NAME" value="week_II" />
+      <option name="MAIN_CLASS_NAME" value="week_II.SquarelotronTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -289,6 +222,31 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="SquarelotronTest.onRingCheck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="week_II.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SD1x" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="week_II" />
+      <option name="MAIN_CLASS_NAME" value="week_II.SquarelotronTest" />
+      <option name="METHOD_NAME" value="onRingCheck" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="SquarelotronTest.rotateRight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -302,6 +260,31 @@
       <option name="PACKAGE_NAME" value="week_II" />
       <option name="MAIN_CLASS_NAME" value="week_II.SquarelotronTest" />
       <option name="METHOD_NAME" value="rotateRight" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="SquarelotronTest.upsideDownFlip" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="week_II.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SD1x" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="week_II" />
+      <option name="MAIN_CLASS_NAME" value="week_II.SquarelotronTest" />
+      <option name="METHOD_NAME" value="upsideDownFlip" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -396,19 +379,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.SquarelotronTest.mainDiagonalFlip" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.SquarelotronTest.rotateRight" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MovieDatabase" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ShipTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.OceanTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.SquarelotronTest.rotateRight" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.SquarelotronTest.onRingCheck" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SquarelotronTest.upsideDownFlip" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.SquarelotronTest.mainDiagonalFlip" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SquarelotronTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MovieDatabase" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.OceanTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ShipTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SquarelotronTest.rotateRight" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.SquarelotronTest.mainDiagonalFlip" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SquarelotronTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SquarelotronTest.mainDiagonalFlip" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SquarelotronTest.rotateRight" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SquarelotronTest.upsideDownFlip" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SquarelotronTest.onRingCheck" />
       </list>
     </recent_temporary>
   </component>
@@ -431,44 +414,48 @@
       <workItem from="1513019449982" duration="6536000" />
       <workItem from="1513076765463" duration="4922000" />
       <workItem from="1513614450100" duration="17007000" />
-      <workItem from="1514567307422" duration="1003000" />
+      <workItem from="1514567307422" duration="2613000" />
+      <workItem from="1514576609750" duration="373000" />
+      <workItem from="1514577411473" duration="191000" />
+      <workItem from="1514577634455" duration="818000" />
+      <workItem from="1514792676022" duration="7902000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OceanTest - 2017.12.19 at 17h 57m 18s.xml">
-      <configuration name="OceanTest" configurationId="JUnit" />
+    <history-entry file="SquarelotronTest - 2018.01.01 at 16h 25m 55s.xml">
+      <configuration name="SquarelotronTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShipTest - 2017.12.19 at 16h 58m 55s.xml">
-      <configuration name="ShipTest" configurationId="JUnit" />
+    <history-entry file="SquarelotronTest_mainDiagonalFlip - 2018.01.01 at 14h 15m 58s.xml">
+      <configuration name="SquarelotronTest.mainDiagonalFlip" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SquarelotronTest_rotateRight - 2017.12.05 at 17h 48m 29s.xml">
+    <history-entry file="SquarelotronTest_mainDiagonalFlip - 2018.01.01 at 14h 20m 07s.xml">
+      <configuration name="SquarelotronTest.mainDiagonalFlip" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SquarelotronTest_mainDiagonalFlip - 2018.01.01 at 15h 10m 45s.xml">
+      <configuration name="SquarelotronTest.mainDiagonalFlip" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SquarelotronTest_mainDiagonalFlip - 2018.01.01 at 15h 12m 40s.xml">
+      <configuration name="SquarelotronTest.mainDiagonalFlip" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SquarelotronTest_mainDiagonalFlip - 2018.01.01 at 15h 56m 00s.xml">
+      <configuration name="SquarelotronTest.mainDiagonalFlip" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SquarelotronTest_mainDiagonalFlip - 2018.01.01 at 16h 13m 43s.xml">
+      <configuration name="SquarelotronTest.mainDiagonalFlip" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SquarelotronTest_mainDiagonalFlip - 2018.01.01 at 16h 16m 49s.xml">
+      <configuration name="SquarelotronTest.mainDiagonalFlip" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SquarelotronTest_mainDiagonalFlip - 2018.01.01 at 16h 25m 37s.xml">
+      <configuration name="SquarelotronTest.mainDiagonalFlip" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SquarelotronTest_rotateRight - 2018.01.01 at 16h 25m 28s.xml">
       <configuration name="SquarelotronTest.rotateRight" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SquarelotronTest_rotateRight - 2017.12.05 at 21h 46m 08s.xml">
-      <configuration name="SquarelotronTest.rotateRight" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SquarelotronTest_rotateRight - 2017.12.05 at 21h 50m 17s.xml">
-      <configuration name="SquarelotronTest.rotateRight" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SquarelotronTest_rotateRight - 2017.12.05 at 21h 56m 32s.xml">
-      <configuration name="SquarelotronTest.rotateRight" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SquarelotronTest_rotateRight - 2017.12.05 at 22h 02m 58s.xml">
-      <configuration name="SquarelotronTest.rotateRight" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SquarelotronTest_upsideDownFlip - 2017.12.05 at 17h 35m 34s.xml">
-      <configuration name="SquarelotronTest.upsideDownFlip" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SquarelotronTest_wholeGridFlip - 2017.12.05 at 17h 30m 04s.xml">
-      <configuration name="SquarelotronTest.wholeGridFlip" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SquarelotronTest_wholeGridFlip - 2017.12.05 at 17h 30m 26s.xml">
-      <configuration name="SquarelotronTest.wholeGridFlip" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51845000" />
+    <option name="totallyTimeSpent" value="62739000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1366" height="741" extended-state="6" />
@@ -483,11 +470,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66883117" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792208" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16742425" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17727272" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -540,7 +527,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="5" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -549,15 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;method#Ocean#0;class#Ocean#0" expanded="false" />
-            <element signature="method#Ocean#0;class#Ocean#0" expanded="false" />
-            <element signature="docComment;method#placeAllShipsRandomly#0;class#Ocean#0" expanded="false" />
-            <element signature="method#placeAllShipsRandomly#0;class#Ocean#0" expanded="false" />
-            <element signature="docComment;method#isOccupied#0;class#Ocean#0" expanded="false" />
-            <element signature="docComment;method#shootAt#0;class#Ocean#0" expanded="false" />
-            <element signature="method#print#0;class#Ocean#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -579,17 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="975">
           <caret line="65" column="26" lean-forward="false" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#MovieDatabase#0;class#MovieDatabase#0" expanded="false" />
-            <element signature="method#addMovie#0;class#MovieDatabase#0" expanded="false" />
-            <element signature="method#addRating#0;class#MovieDatabase#0" expanded="false" />
-            <element signature="method#updateRating#0;class#MovieDatabase#0" expanded="false" />
-            <element signature="method#getBestActor#0;class#MovieDatabase#0" expanded="false" />
-            <element signature="method#getBestMovie#0;class#MovieDatabase#0" expanded="false" />
-            <element signature="method#printDatabase#0;class#MovieDatabase#0" expanded="false" />
-            <element signature="method#main#0;class#MovieDatabase#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -611,17 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="92" column="9" lean-forward="true" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#MovieDatabase#0;class#MovieDatabase#0" expanded="false" />
-            <element signature="method#addMovie#0;class#MovieDatabase#0" expanded="false" />
-            <element signature="method#addRating#0;class#MovieDatabase#0" expanded="false" />
-            <element signature="method#updateRating#0;class#MovieDatabase#0" expanded="false" />
-            <element signature="method#getBestActor#0;class#MovieDatabase#0" expanded="false" />
-            <element signature="method#getBestMovie#0;class#MovieDatabase#0" expanded="false" />
-            <element signature="method#printDatabase#0;class#MovieDatabase#0" expanded="false" />
-            <element signature="method#main#0;class#MovieDatabase#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -643,17 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="70" column="1" lean-forward="false" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#MovieDatabase#0;class#MovieDatabase#0" expanded="false" />
-            <element signature="method#addMovie#0;class#MovieDatabase#0" expanded="false" />
-            <element signature="method#addRating#0;class#MovieDatabase#0" expanded="false" />
-            <element signature="method#updateRating#0;class#MovieDatabase#0" expanded="false" />
-            <element signature="method#getBestActor#0;class#MovieDatabase#0" expanded="false" />
-            <element signature="method#getBestMovie#0;class#MovieDatabase#0" expanded="false" />
-            <element signature="method#printDatabase#0;class#MovieDatabase#0" expanded="false" />
-            <element signature="method#main#0;class#MovieDatabase#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -675,17 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="70" column="1" lean-forward="true" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#MovieDatabase#0;class#MovieDatabase#0" expanded="false" />
-            <element signature="method#addMovie#0;class#MovieDatabase#0" expanded="false" />
-            <element signature="method#addRating#0;class#MovieDatabase#0" expanded="false" />
-            <element signature="method#updateRating#0;class#MovieDatabase#0" expanded="false" />
-            <element signature="method#getBestActor#0;class#MovieDatabase#0" expanded="false" />
-            <element signature="method#getBestMovie#0;class#MovieDatabase#0" expanded="false" />
-            <element signature="method#printDatabase#0;class#MovieDatabase#0" expanded="false" />
-            <element signature="method#main#0;class#MovieDatabase#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -703,20 +637,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week_II/Squarelotron.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="27" column="58" lean-forward="false" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/week_II/SquarelotronTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-9-oracle/lib/src.zip!/java.base/java/lang/Comparable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
@@ -725,12 +645,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/week_III/ratings.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="csv-data-editor">
         <state>
           <format>
@@ -745,6 +659,11 @@
               </data>
             </csv-format>
           </format>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -885,15 +804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;method#Ocean#0;class#Ocean#0" expanded="false" />
-            <element signature="method#Ocean#0;class#Ocean#0" expanded="false" />
-            <element signature="docComment;method#placeAllShipsRandomly#0;class#Ocean#0" expanded="false" />
-            <element signature="method#placeAllShipsRandomly#0;class#Ocean#0" expanded="false" />
-            <element signature="docComment;method#isOccupied#0;class#Ocean#0" expanded="false" />
-            <element signature="docComment;method#shootAt#0;class#Ocean#0" expanded="false" />
-            <element signature="method#print#0;class#Ocean#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -901,25 +811,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
           <caret line="203" column="3" lean-forward="false" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/week_III/MovieDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="77" column="43" lean-forward="false" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#MovieDatabase#0;class#MovieDatabase#0" expanded="false" />
-            <element signature="method#addMovie#0;class#MovieDatabase#0" expanded="false" />
-            <element signature="method#addRating#0;class#MovieDatabase#0" expanded="false" />
-            <element signature="method#updateRating#0;class#MovieDatabase#0" expanded="false" />
-            <element signature="method#getBestActor#0;class#MovieDatabase#0" expanded="false" />
-            <element signature="method#getBestMovie#0;class#MovieDatabase#0" expanded="false" />
-            <element signature="method#printDatabase#0;class#MovieDatabase#0" expanded="false" />
-            <element signature="method#main#0;class#MovieDatabase#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="446">
+          <caret line="120" column="5" lean-forward="true" selection-start-line="120" selection-start-column="5" selection-end-line="120" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/week_II/SquarelotronTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/week_II/Squarelotron.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -46,15 +46,13 @@ class SquarelotronTest {
 
     @org.junit.jupiter.api.Test
     void mainDiagonalFlip() {
-        testSquare1 = squareTwo.mainDiagonalFlip(2);
-        testSquare2 = squareThree.mainDiagonalFlip(2);
-        testSquare3 = squareOne.mainDiagonalFlip(1);
-        int [] test1 = {16, 9, 14, 19, 20};
-        int [] test2 = {1, 5, 9, 13};
-        int [] test3 = {15, 10, 17, 18, 19, 37, 21};
-        assertArrayEquals(test1, testSquare1.squarelotron[3]);
-        assertArrayEquals(test2, testSquare3.squarelotron[0]);
-        assertArrayEquals(test3, testSquare2.squarelotron[2]);
+        Squarelotron se = new Squarelotron(4);
+        se = se.mainDiagonalFlip(2);
+        assertEquals(4, se.squarelotron[0][3]);
+        assertEquals(5, se.squarelotron[1][0]);
+        assertEquals(6, se.squarelotron[1][1]);
+        assertEquals(10, se.squarelotron[1][2]);
+        assertEquals(15, se.squarelotron[3][2]);
     }
 
     @org.junit.jupiter.api.Test
