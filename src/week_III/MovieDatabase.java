@@ -99,15 +99,8 @@ public class MovieDatabase {
                     }
                 }
             }
-            for (String key : map.keySet()) {
-                String[] actors = new String[map.get(key).size()];
-                int index = 0;
-                for (Object entry: map.get(key)) {
-                    actors[index] = (String) entry;
-                    index++;
-                }
-                favorites.addMovie(key, actors);
-            }
+            map.keySet().forEach((String key) -> favorites.addMovie(key, map.get(key).toArray(new String[map.get(key)
+                    .size()])));
             while (scanner.hasNext()) {
                 String[] rate = scanner.nextLine().split("\t");
                 favorites.addRating(rate[0], Double.parseDouble(rate[1]));
@@ -116,6 +109,7 @@ public class MovieDatabase {
             System.out.println(ex.toString());
         }
         favorites.printDatabase();
+        System.out.println("---------------------");
         System.out.printf("The best actor in this movie database is %s\n", favorites.getBestActor());
         System.out.printf("The best movie in this movie database is %s\n", favorites.getBestMovie());
     }
