@@ -77,8 +77,8 @@ public class MovieDatabase {
 
     public static void main(String[] args) {
         MovieDatabase favorites = new MovieDatabase();
-        File rating_file = new File("/home/michael/IdeaProjects/SD1x/src/week_III/ratings.txt");
-        File movie_file = new File("/home/michael/IdeaProjects/SD1x/src/week_III/movies.txt");
+        File rating_file = new File("C:\\Users\\sMich\\IdeaProjects\\SD1x\\src\\week_III\\ratings.txt");
+        File movie_file = new File("C:\\Users\\sMich\\IdeaProjects\\SD1x\\src\\week_III\\movies.txt");
         HashMap<String, List<String>> map = new HashMap<>();
         try {
             Scanner scan = new Scanner(movie_file);
