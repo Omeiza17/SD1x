@@ -5,6 +5,7 @@ package Battleship;
  * We never really want to create an instance of Ship.
  * Rather, we want to create a specific type of Ship.
  */
+@SuppressWarnings("ALL")
 public abstract class Ship {
 
     private int bowRow; // the row (0-19) which contains the front of the ship.
@@ -55,6 +56,19 @@ public abstract class Ship {
     }
 
     /**
+     * Returns true if that part of the ship has been hit and false otherwise.
+     * @param   row
+ *              The x-coordinate of the bow
+     * @param   column
+     *          The y-coordinate of the bow
+     * @return  True or False
+     */
+    public boolean wasShootAt(int row,  int column) {
+        if (horizontal) return hit[column - this.bowColumn] == true;
+        else return hit[row - this.bowRow] == true;
+    }
+
+    /**
      * Returns the specific names of a ship instance
      * @return name - the name of the ship
      */
@@ -76,7 +90,30 @@ public abstract class Ship {
      * @return  true or false
      */
     boolean okToPlaceShipAt(int row, int column, boolean horizontal, Ocean ocean) {
-        return false;
+        if (horizontal) {
+            if (column + getLength() > 20) return false;
+            for (int i = row - 1; i < row + 1; i++) {
+                for (int j = column - 1; j < column + getLength() + 1; j++) {
+                    try {
+                        if (!ocean.getShipArray()[i][j].getShipType().equals("empty")) return false;
+                    } catch (Exception e) {
+                        continue;
+                    }
+                }
+            }
+        } else {
+            if (row + getLength() > 20) return false;
+            for (int i = row - 1; i < row + getLength() + 1; i++) {
+                for (int j = column - 1; j <= column + 1; j++) {
+                    try {
+                        if (!ocean.getShipArray()[i][j].getShipType().equals("empty")) return false;
+                    } catch (Exception e) {
+                        continue;
+                    }
+                }
+            }
+        }
+        return true;
     }
 
     /**
@@ -93,7 +130,15 @@ public abstract class Ship {
      *          The ocean on which the ship is to be placed.
      */
     void placeShipAt(int row, int column, boolean horizontal, Ocean ocean) {
-
+        this.bowRow = row;
+        this.bowColumn = column;
+        this.horizontal = horizontal;
+        
+        if (horizontal) {
+            for (int i = column; i < column + getLength(); i++) ocean.getShipArray()[row][i] = this;
+        } else {
+            for (int i = row; i < row + getLength(); i++) ocean.getShipArray()[i][column] = this;
+        }
     }
 
     /**
@@ -106,6 +151,19 @@ public abstract class Ship {
      * @return  True or False
      */
     boolean shootAt(int row, int column) {
+        if (!isSunk()) {
+            if (horizontal) {
+                if (row == this.bowRow && column < this.bowColumn + length) {
+                    this.hit[column - this.bowColumn] = true;
+                    return true;
+                }
+            } else {
+                if (column == this.bowColumn && row < this.bowRow + length) {
+                    this.hit[row - this.bowRow] = true;
+                    return true;
+                }
+            }
+        }
         return false;
     }
 
@@ -114,11 +172,19 @@ public abstract class Ship {
      * @return  True/False.
      */
     boolean isSunk() {
-        return false;
+        for (boolean shotAt: this.hit) if (!shotAt) return false;
+        return true;
     }
 
+    /**
+     * Returns a single-character String to be used in the Ocean's print method
+     * Used to print out locations in the {@link Ocean} has been shot at; should
+     * not be used to print location that hasn't been shot at.
+     *
+     * @return  x - if the ship has been sunk and S - if it hasn't been sunk.
+     */
     @Override
     public String toString() {
-        return super.toString();
+        return isSunk() ? "x" : "S";
     }
 }
